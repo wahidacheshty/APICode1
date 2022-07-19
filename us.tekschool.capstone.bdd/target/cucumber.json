@@ -1,0 +1,99 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-24T15:01:38.345Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7288000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User verify all items are present in Desktops tab",
+        "description": "",
+        "id": "desktops;user-verify-all-items-are-present-in-desktops-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 985000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 112000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_is_on_retail_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 560000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Desktops tab",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_on_Desktops_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 950000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Show all desktops",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.User_click_on_Show_all_desktops()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 871000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see all items are present in Desktop page",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.User_should_see_all_items_are_present_in_Desktop_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@desktopTest"
+          }
+        ]
+      }
+    ],
+    "name": "Desktops",
+    "description": "",
+    "id": "desktops",
+    "keyword": "Feature",
+    "uri": "classpath:feature/Desktops.feature",
+    "tags": []
+  }
+]
