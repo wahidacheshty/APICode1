@@ -29,6 +29,7 @@ public class DesktopsStepDef extends Base {
 		//UtilityClass.takeScreenShot();
 	}
 
+
 	@When("User click on Desktops tab")
 	public void user_click_on_desktops_tab() {
 		desktopPageObjects.clickOnDesktops();
